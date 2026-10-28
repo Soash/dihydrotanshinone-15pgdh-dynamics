@@ -16,7 +16,7 @@
 
 15-hydroxyprostaglandin dehydrogenase (15-PGDH) is the committed NAD(+)-dependent oxidoreductase that catabolizes prostaglandin E2 (PGE2) into its biologically inactive 15-keto form. Sarcopenia, the progressive loss of skeletal muscle mass and functional strength during aging, is directly exacerbated by diminished PGE2 signaling. Pharmacological or genetic inhibition of 15-PGDH elevates endogenous PGE2 levels and restores mitochondrial function and muscle regenerative capacity. While synthetic inhibitors have advanced to preclinical maturity, structurally characterized botanical inhibitors remain scarce, and the lipophilic phenanthraquinones of *Salvia miltiorrhiza* (Danshen) have remained uncharacterized against 15-PGDH.
 
-In this study, the natural abietane diterpenoid **dihydrotanshinone I** (alongside panaxynol as a mechanistically distinct natural comparator) was docked across an ensemble of three experimentally determined human 15-PGDH receptor conformations: the high-resolution X-ray co-crystals **9PFL** (1.65 Angstrom) and **9PFM** (1.88 Angstrom), and the lid-closed Cryo-EM structure **8CVN** (2.40 Angstrom). The docking protocol was validated by crystallographic self-redocking, which reproduced native binding modes within heavy-atom RMSDs of 0.38 to 1.46 Angstrom. Dihydrotanshinone I docked favorably into the active site pocket across all three structures with predicted binding affinities ranging from $-8.94\text{ to }-10.5\text{ kcal/mol}$, engaging catalytic triad residues (Ser138, Tyr151) and the structural lid hinges (Phe185, Tyr217). Across fifteen independent random seeds per receptor, top poses converged within $0.10\text{ to }0.18\text{ Angstrom}$ RMSD, demonstrating that docking solutions were independent of stochastic seed artifacts.
+In this study, the natural abietane diterpenoid **dihydrotanshinone I** (alongside panaxynol as a mechanistically distinct natural comparator) was docked across an ensemble of three experimentally determined human 15-PGDH receptor conformations: the high-resolution X-ray co-crystals **9PFL** (1.65 Å) and **9PFM** (1.88 Å), and the lid-closed Cryo-EM structure **8CVN** (2.40 Å). The docking protocol was validated by crystallographic self-redocking, which reproduced native binding modes within heavy-atom RMSDs of 0.38 to 1.46 Å. Dihydrotanshinone I docked favorably into the active site pocket across all three structures with predicted binding affinities ranging from $-8.94\text{ to }-10.5\text{ kcal/mol}$, engaging catalytic triad residues (Ser138, Tyr151) and the structural lid hinges (Phe185, Tyr217). Across fifteen independent random seeds per receptor, top poses converged within $0.10\text{ to }0.18\text{ Å}$ RMSD, demonstrating that docking solutions were independent of stochastic seed artifacts.
 
 To assess the dynamic persistence of the docked complexes, **triplicate 100 ns explicit-solvent molecular dynamics (MD) simulations** were executed for each system (9 trajectories; 900 ns cumulative sampling). Dihydrotanshinone I remained continuously bound to the inhibitor pocket throughout all nine trajectories, maintaining persistent contact with lid-hinge residue Phe185 ($94.6\%\text{ to }100\%$ occupancy), while Lys155 showed exactly zero contact, corroborating its role in cofactor coordination rather than inhibitor binding. These combined in silico findings identify dihydrotanshinone I as a reproducible, mechanistically plausible natural-compound candidate for the 15-PGDH inhibitor pocket.
 
@@ -104,25 +104,25 @@ Compound Summary:
 
 ### 3.1 Crystallographic Redocking Validation
 
-Self-redocking of co-crystallized inhibitors reproduced native poses within strict sub-2 Angstrom tolerances, confirming search space parameters and scoring accuracy across both X-ray and Cryo-EM models:
+Self-redocking of co-crystallized inhibitors reproduced native poses within strict sub-2 Å tolerances, confirming search space parameters and scoring accuracy across both X-ray and Cryo-EM models:
 
 | Structure | Method | Resolution | Bound Cofactor | Redocked Native Inhibitor | Redock Affinity | Heavy-Atom RMSD | Validation Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **9PFL** | X-ray | $1.65\text{ \AA}$ | $\text{NAD}^+$ | A1CH2 | $-13.61\text{ kcal/mol}$ | **$0.379\text{ \AA}$** | **Pass** |
-| **9PFM** | X-ray | $1.88\text{ \AA}$ | $\text{NAD}^+$ | SWL | $-8.85\text{ kcal/mol}$ | **$0.564\text{ \AA}$** | **Pass** |
-| **8CVN** | Cryo-EM | $2.40\text{ \AA}$ | $\text{NADH}$ | SWL / SW209415 | $-8.82\text{ kcal/mol}$ | **$1.462\text{ \AA}$** | **Pass** |
+| **9PFL** | X-ray | 1.65 Å | $\text{NAD}^+$ | A1CH2 | -13.61 kcal/mol | **0.379 Å** | **Pass** |
+| **9PFM** | X-ray | 1.88 Å | $\text{NAD}^+$ | SWL | -8.85 kcal/mol | **0.564 Å** | **Pass** |
+| **8CVN** | Cryo-EM | 2.40 Å | $\text{NADH}$ | SWL / SW209415 | -8.82 kcal/mol | **1.462 Å** | **Pass** |
 
 ### 3.2 Predicted Docking Affinities & Contact Fingerprints
 
 * Dihydrotanshinone I attained docking scores of $-8.94\text{ kcal/mol}$ in 9PFL, $-9.56\text{ kcal/mol}$ in 9PFM, and $-10.50\text{ kcal/mol}$ in 8CVN.
-* In X-ray models, the compound forms a direct hydrogen bond with catalytic residue **Ser138** ($2.89\text{ \AA}$ in 9PFL, $2.83\text{ \AA}$ in 9PFM) and contacts **Tyr151** and lid hinge **Phe185**.
-* In Cryo-EM structure 8CVN, it anchors tightly on the dual lid-hinge residues **Phe185** ($3.16\text{ \AA}$) and **Tyr217** ($3.52\text{ \AA}$).
-* **Seed Convergence**: Testing 15 independent random seeds demonstrated complete convergence (15 of 15 seeds in the dominant cluster) with pairwise RMSDs $\le 0.18\text{ \AA}$.
+* In X-ray models, the compound forms a direct hydrogen bond with catalytic residue **Ser138** (2.89 Å in 9PFL, 2.83 Å in 9PFM) and contacts **Tyr151** and lid hinge **Phe185**.
+* In Cryo-EM structure 8CVN, it anchors tightly on the dual lid-hinge residues **Phe185** (3.16 Å) and **Tyr217** (3.52 Å).
+* **Seed Convergence**: Testing 15 independent random seeds demonstrated complete convergence (15 of 15 seeds in the dominant cluster) with pairwise RMSDs $\le 0.18\text{ Å}$.
 
 ### 3.3 Molecular Dynamics (9 x 100 ns Trajectories)
 
 All nine 100 ns trajectories completed without structural disintegration or ligand dissociation:
-* **Continuous Pocket Occupancy**: Minimum protein-ligand heavy-atom distance never exceeded $4.5\text{ \AA}$ in any frame across 90,027 analyzed frames.
+* **Continuous Pocket Occupancy**: Minimum protein-ligand heavy-atom distance never exceeded 4.5 Å in any frame across 90,027 analyzed frames.
 * **Persistent Anchor**: Lid hinge **Phe185 remained in contact for $94.6\%\text{ to }100\%$ of frames** across all systems and replicas, behaving as a rigid, essential hydrophobic anchor.
 * **Cofactor Integrity**: **Lys155 maintained 0.0% contact occupancy** with the ligand across all nine runs, validating that the ligand does not displace the catalytic cofactor coordination network.
 * **Lid Mobility Partitioning**: Per-residue RMSF demonstrated that Phe185 remains structurally rigid (lower than protein average RMSF), whereas Tyr217 accounts for the flexible breathing motion of the induced-fit lid.
