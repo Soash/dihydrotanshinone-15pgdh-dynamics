@@ -8,7 +8,6 @@
 [![Preprint: Research Square](https://img.shields.io/badge/Preprint-10.21203%2Frs.3.rs--10719902%2Fv1-blue.svg?style=flat-square)](https://doi.org/10.21203/rs.3.rs-10719902/v1)
 [![Dataset: Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.21945974-success.svg?style=flat-square)](https://doi.org/10.5281/zenodo.21945974)
 [![Target: Human%2015--PGDH](https://img.shields.io/badge/Target-Human%2015--PGDH-red.svg?style=flat-square)](https://www.rcsb.org/structure/9PFL)
-[![Simulation: 9x100ns%20GROMACS](https://img.shields.io/badge/MD-9%20x%20100%20ns%20(900%20ns)-purple.svg?style=flat-square)](https://www.gromacs.org/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
