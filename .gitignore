@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Molecular dynamics large trajectory & energy binaries (archived on Zenodo)
+*.xtc
+*.trr
+*.edr
+*.tpr
+*.cpt
+
+# Operating System metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary logs & backups
+*.log
+*~
+#*
